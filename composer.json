@@ -1,0 +1,29 @@
+{
+    "name": "irfantoor/mini-loader",
+    "description": "Loads the current irfantoor/test avoiding the cyclic dependency",
+    "type": "library",
+    "keywords": ["irfantoor", "mini-loader", "test", "autoloader", "class", "psr-4"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Irfan TOOR",
+            "email": "email@irfantoor.com",
+            "homepage": "https://irfantoor.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">= 7.3"
+    },
+    "require-dev": {
+        "irfantoor/test": "~0.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "IrfanTOOR\\": "src/"
+        }
+    },
+    "bin": [
+        "test"
+    ]
+}
