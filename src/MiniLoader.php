@@ -12,7 +12,7 @@ class MiniLoader
 {
     const NAME        = "MiniLoader";
     const DESCRIPTION = "Loads the current irfantoor/test avoiding the cyclic dependency";
-    const VERSION     = "0.1";
+    const VERSION     = "0.1.1";
 
     protected $root;
     protected $vendor;
